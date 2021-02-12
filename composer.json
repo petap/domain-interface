@@ -1,0 +1,14 @@
+{
+  "name": "petap/domain-interface",
+  "description": "Common interface for Domain services",
+  "keywords": ["domain-service", "DDD"],
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PetapDomainInterface\\": "src/"
+    }
+  }
+}
